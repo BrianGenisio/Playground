@@ -552,3 +552,9 @@ Processing StoreController#index (for 127.0.0.1 at 2009-10-10 12:26:54) [GET]
   [4;36;1mProduct Load (0.7ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
 Rendering store/index
 Completed in 37ms (View: 31, DB: 1) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-10-10 13:00:49) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering store/index
+Completed in 65ms (View: 55, DB: 1) | 200 OK [http://localhost/store]
